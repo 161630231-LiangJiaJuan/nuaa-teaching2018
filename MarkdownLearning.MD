@@ -1,9 +1,9 @@
-# **TEXT OF MARKDOWN**<br>
+# **1.TEXT OF MARKDOWN**<br>
 It is very easy to make some words **bold** and other words *italic* with markdown. You can even link to [**Google**](www.google.com).
 <br>
 <br>
 
-# **LISTS OF MARKDOWN**<br>
+# **2.LISTS OF MARKDOWN**<br>
 Sample 1 : Numbered Lists<br>
 1. ONE<br>
 2. TWO<br>
@@ -23,12 +23,12 @@ Sample 3 : Dashes Lists<br>
   - 2.2
 <br>
 
-# **IMAGES OF MARKDOWN**<br>
+# **3.IMAGES OF MARKDOWN**<br>
 Insert a image here:<br>
 ![La La Land](https://github.com/sinkinben/nuaa-teaching2018/blob/master/images/psb.jpg?raw=true)
 <br>
 
-# About Heading 
+# 4.About Heading 
 Sometimes it is useful to ave different levels of heading to structure your documents. Start lines with a '#' to create headings. Mutiple '##' in a row denote smaller heading sizes.
 ## Second Level heading
 ### Third Level heading
@@ -36,12 +36,12 @@ Sometimes it is useful to ave different levels of heading to structure your docu
 ##### Fifth Level heading
 ###### Sixth Level heading
 
-# About quote
+# 5.About quote
 Use the '>' character.
 > All men are created equal.
 > -Thomas Jefferson
 
-# **INSERT CODE**
+# **6.INSERT CODE**
 * Sample 1
 ```
 #include<stdio.h>
@@ -67,14 +67,14 @@ int main()
 }
 ```
 
-# **Syntax Guide**
+# **7.Syntax Guide**
 Here is an overview of Markdown syntax that you can use anywhere on GitHub or in your own Markdown editor.  
-### Headers
+### 7.1Headers
 > \# This is an \<h1> tag  
 > \## This is an \<h2> tag  
 > \###### This is an \<h6> tag  
 
-### Emphasis
+### 7.2Emphasis
 ```
 *This text will be italic*  
 _This will also be italic_  
@@ -91,4 +91,16 @@ Here are the effects.
 > **This text will be bold**  
 > __This will also be bold__  
 > _You **can** combine them_  
+
+# 8.GitHub Flavored Markdown   
+### 8.1 Task Lists
+ - [x] item1  
+ - [x] item2  
+ - [ ] item3  
+ - [ ] item4  
+
+### 8.2 Tables  
+CELL-1-1	|CELL-1-2	|CELL-1-3	|  
+Cell-2-1	|Cell-2-2	|Cell-2-3	|  
+Cell-3-1	|Cell-3-2	|Cell-3-3	|
 
