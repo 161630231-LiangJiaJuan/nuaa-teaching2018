@@ -70,5 +70,7 @@ int main()
 # **Syntax Guide**
 Here is an overview of Markdown syntax that you can use anywhere on GitHub or in your own Markdown editor.  
 ### Headers
-<h1> H1
-<h2> H2
+> # This is an <h1> tag  
+> ## This is an <h2> tag  
+> ###### This is an <h6> tag  
+
