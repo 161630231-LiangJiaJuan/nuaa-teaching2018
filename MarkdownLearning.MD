@@ -1,6 +1,7 @@
 **TEXT OF MARKDOWN**<br>
 It is very easy to make some words **bold** and other words *italic* with markdown. You can even link to [**Google**](www.google.com).
 <br>
+<br>
 **LISTS OF MARKDOWN**<br>
 Sample 1 : Numbered Lists<br>
 1. ONE<br>
