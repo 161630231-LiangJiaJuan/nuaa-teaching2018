@@ -14,12 +14,12 @@ Sample 2 : Bullet Points Lists<br>
 * ben<br>
 
 Sample 3 : Dashes Lists<br>
-- ONE
-  - 1.1
-  - 1.2
-- TWO
-  - 2.1
-  - 2.2
+- ONE<br>
+  - 1.1<br>
+  - 1.2<br>
+- TWO<br>
+  - 2.1<br>
+  - 2.2<br>
 <br>
 <br>
 **IMAGES OF MARKDOWN**<br>
