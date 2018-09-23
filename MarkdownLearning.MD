@@ -24,5 +24,5 @@ Sample 3 : Dashes Lists<br>
 <br>
 **IMAGES OF MARKDOWN**<br>
 Insert a image here:<br>
-![LaLaLand](https://github.com/sinkinben/nuaa-teaching2018/blob/master/images/psb.jpg)<br>
+![LaLaLand](https://github.com/sinkinben/nuaa-teaching2018/blob/master/images/psb.jpg?raw=true)<br>
 
