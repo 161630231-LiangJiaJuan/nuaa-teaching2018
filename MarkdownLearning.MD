@@ -43,7 +43,7 @@ Use the '>' character.
 
 # **INSERT CODE**
 * Sample 1
-#include<stdio.h>
+	#include<stdio.h>
 int main()
 {
 	int a=1,b=2;
