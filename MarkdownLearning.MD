@@ -22,7 +22,6 @@ Sample 3 : Dashes Lists<br>
   - 2.2<br>
 <br>
 <br>
-
 **IMAGES OF MARKDOWN**<br>
 Insert a image here:<br>
 ![La La Land](https://github.com/sinkinben/nuaa-teaching2018/blob/master/images/psb.jpg?raw=true)
