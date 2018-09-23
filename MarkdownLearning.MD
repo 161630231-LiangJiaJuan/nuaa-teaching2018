@@ -22,7 +22,7 @@ Sample 3 : Dashes Lists<br>
   - 2.2
 <br>
 <br>
-**IMAGES OF MARKDOWN**
+**IMAGES OF MARKDOWN**<br>
 Insert a image here:<br>
-![LaLaLand](https://github.com/sinkinben/nuaa-teaching2018/blob/master/images/psb.jpg)
+![LaLaLand](https://github.com/sinkinben/nuaa-teaching2018/blob/master/images/psb.jpg)<br>
 
