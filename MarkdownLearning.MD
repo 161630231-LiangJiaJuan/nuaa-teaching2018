@@ -101,6 +101,7 @@ Here are the effects.
 
 ### 8.2 Tables  
 CELL-1-1	|CELL-1-2	|CELL-1-3	|  
-Cell-2-1	|Cell-2-2	|Cell-2-3	|  
-Cell-3-1	|Cell-3-2	|Cell-3-3	|
+----------------|---------------|---------------|  
+Cell-2-1	|Cell-2-2	|Cell-2-3	|   
+Cell-3-1	|Cell-3-2	|Cell-3-3	|  
 
