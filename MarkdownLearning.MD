@@ -22,7 +22,6 @@ Sample 3 : Dashes Lists<br>
   - 2.1
   - 2.2
 <br>
-<br>
 
 **IMAGES OF MARKDOWN**<br>
 Insert a image here:<br>
