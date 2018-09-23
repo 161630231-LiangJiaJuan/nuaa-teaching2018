@@ -14,7 +14,7 @@
 * 如果遇到任何问题，请查询[腾讯云CVM入门](https://cloud.tencent.com/product/cvm/getting-started)。
 
 ### 二、Git工具的安装
-    本节的内容是安装git工具，并结合GitHub学习一些基本的git操作命令。在开始之前，我们默认阅读本文档的读者了解基本的Linux命令。   
+本节的内容是安装git工具，并结合GitHub学习一些基本的git操作命令。在开始之前，我们默认阅读本文档的读者了解基本的Linux命令。
 [What is Git?](www.baidu.com)  
 [What is GitHub?](www.baidu.com)  
   
