@@ -3,21 +3,20 @@
 * 首先，进入[腾讯云官网](https://cloud.tencent.com/)，注册登录。登陆后，会有各种套餐推送，选最便宜的。具体操作并不复杂，不展开说明。如果在注册CVM(Cloud Virtual Machine)遇到任何问题，请参考[腾讯云CVM入门](https://cloud.tencent.com/product/cvm/getting-started)。
 
 * 完成配置后，查看网页右上角的消息中心，会收到一封邮件里面是云服务器的相关信息。  
-![CVM-Info](www.baidu.com)
+![CVM-Info](https://github.com/sinkinben/nuaa-teaching2018/blob/master/images/image036.jpg?raw=true)  
 
-* 打开putty，填入如下图的信息HostName是CVM公网IP，PORT端口填写22，SSH方式连接。第一次登录连接收到警告，点击Yes即可。  
-![putty-login](www.baidu.com)
+* 打开putty，填入如下图的信息HostName是CVM公网IP，PORT端口填写22，SSH方式连接。第一次登录连接收到警告，点击Yes即可。    
+![putty-login](https://github.com/sinkinben/nuaa-teaching2018/blob/master/images/image038.jpg?raw=true)
 
-* 填写用户名和密码，即官方消息中给出的账号密码。建议修改初始密码。登录成功之后就跟PA所使用的Linux系统差不多。见下图。
-![cvm-login]()  
+* 填写用户名和密码，即官方消息中给出的账号密码。建议修改初始密码。登录成功之后就跟PA所使用的Linux系统差不多。
 
 * 如果遇到任何问题，请查询[腾讯云CVM入门](https://cloud.tencent.com/product/cvm/getting-started)。
 
 ### 二、Git工具的配置与简单操作  
-本节的内容是安装git工具，并结合GitHub学习一些基本的git操作命令。在开始之前，我们默认阅读本文档的读者了解基本的Linux命令。本文当中，安装的Linux版本是GNU/Linux 4.4.0-92-generic i686。**根据Linux版本的不同，输入的命令可能有所不同。 遇到命令失效时，[点击这里](www.baidu.com)。**
+本节的内容是安装git工具，并结合GitHub学习一些基本的git操作命令。在开始之前，我们默认阅读本文档的读者了解基本的Linux命令。本文当中，安装的Linux版本是GNU/Linux 4.4.0-92-generic i686。**根据Linux版本的不同，输入的命令可能有所不同。 遇到命令失效时，[点击这里](https://www.baidu.com)。**
 
-[What is Git?](www.baidu.com)  
-[What is GitHub?](www.baidu.com)  
+[What is Git?](https://www.baidu.com)  
+[What is GitHub?](https://www.baidu.com)  
   
 ### 2.1 git的本地配置
 * 用putty登录云服务器，输入如下命令：
@@ -25,7 +24,7 @@
 sudo apt get install git
 ```
 一系列的输出后，再次输入上述命令，出现下图即为安装成功。  
-![install git]()
+![install git](https://github.com/sinkinben/nuaa-teaching2018/blob/master/images/image001.png?raw=true)
 
 * 安装成功后，添加git账号，此账号是本地的，可以随时修改。在这里我输入的名字是nuaa:teaching2018  
 ```
@@ -37,7 +36,7 @@ git config --global user.email 'your email'
 git config --get-all user.name
 git config --get-all user.email
 ```
-![git config user]()
+![git config user](https://github.com/sinkinben/nuaa-teaching2018/blob/master/images/image005.png?raw=true)
 
 * 新建密匙  
 我们先不着急了解何谓“密匙”。做到后面自然会知道。  
