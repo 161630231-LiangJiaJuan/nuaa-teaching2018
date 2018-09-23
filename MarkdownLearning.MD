@@ -6,12 +6,12 @@ Sample 1 : Numbered Lists<br>
 1. ONE<br>
 2. TWO<br>
 3. THREE<br>
-<br>
+
 Sample 2 : Bullet Points Lists<br>
 * sin<br>
 * kin<br>
 * ben<br>
-<br>
+
 Sample 3 : Dashes Lists<br>
 - ONE
   - 1.1
@@ -19,4 +19,4 @@ Sample 3 : Dashes Lists<br>
 - TWO
   - 2.1
   - 2.2
-<br>
+
