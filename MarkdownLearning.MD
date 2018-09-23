@@ -20,4 +20,9 @@ Sample 3 : Dashes Lists<br>
 - TWO
   - 2.1
   - 2.2
+<br>
+<br>
+**IMAGES OF MARKDOWN**
+Insert a image here:<br>
+![LaLaLand](https://github.com/sinkinben/nuaa-teaching2018/blob/master/images/psb.jpg)
 
