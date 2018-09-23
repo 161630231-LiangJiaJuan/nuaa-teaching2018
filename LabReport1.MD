@@ -36,6 +36,7 @@ git config --global user.email 'your email'
 git config --get-all user.name
 git config --get-all user.email
 ```
+
 ![git config user](https://github.com/sinkinben/nuaa-teaching2018/blob/master/images/image005.png?raw=true)
 
 * 新建密匙  
@@ -46,13 +47,14 @@ ssh-keygen -C 'xxxxx@xxx.com' -t rsa
 ```  
 会要求输入一个文件名，我的输入：gitKey.pub，注意扩展名即可,名字任意。
 若要求密码可不填，直接回车。显示当前的文件，会发现多了两个文件。
-**gitKey.pub是私人的密匙，gitKey.pub.pub是公共密匙。**
-![ls gitkey file]()  
+**gitKey.pub是私人的密匙，gitKey.pub.pub是公共密匙。**  
+
+![ls gitkey file](https://github.com/sinkinben/nuaa-teaching2018/blob/master/images/image013.png?raw=true)  
 
 ### 2.2 git与GitHub   
 * 注册并登陆登录Github网站，右上角“Settings -> SSH and GPG keys -> New SSH keys”.  
 Title任意，key填写**公共密匙xxx.pub.pub**里面的内容。  
-![add ssh keys]()
+![add ssh keys](https://github.com/sinkinben/nuaa-teaching2018/blob/master/images/image009.png?raw=true)
 
 * 点击网页右上角加号‘+’，“New Repository”填写相关信息。此处我新建了一个*nuaa-teaching2018*的仓库，后面我们就是将本地的文件备份到此仓库，或者把仓库中的项目开发代码clone到CVM。下面正式展示git的基本操作。  
 
@@ -60,7 +62,7 @@ Title任意，key填写**公共密匙xxx.pub.pub**里面的内容。
 ```
 git init
 ```  
-![git init]()
+![git init](https://github.com/sinkinben/nuaa-teaching2018/blob/master/images/image015.png?raw=true)
 
 * 在此，将CVM的softwareTesting称为本地仓库，GitHub上的nuaa-teaching2018称为远程仓库。  
 输入命令，关联本地仓库与远程仓库：
@@ -72,17 +74,18 @@ git remote add origin git@'你的仓库url地址'
 ```
 git remote -v
 ```  
-成功如图：
-![git remote -v]()
+成功如图：  
+
+![git remote -v](https://github.com/sinkinben/nuaa-teaching2018/blob/master/images/image019.png?raw=true)
 
 * 下载GitHub上nuaa-teaching2018仓库的文件到本地。  
 ```
 git clone '你的仓库地址'
 ```  
-![git clone]()
+![git clone](https://github.com/sinkinben/nuaa-teaching2018/blob/master/images/image021.png?raw=true)
 
-后在softwareTesting查看，会出现nuaa-teahing2018的文件夹。
-![check git clone]()
+后在softwareTesting查看，会出现nuaa-teahing2018的文件夹。  
+
 
 * 接下来，我们在本地完成了一些代码，现在要把它推送到远程仓库中备份。  
 在softwareTesting/nuaa-teaching2018写一个hello.cpp
@@ -109,15 +112,17 @@ git add的作用是把文件添加到git的列表，决定push的时候是否上
 git add .
 ```
 
-![git push]()  
+![git push](https://github.com/sinkinben/nuaa-teaching2018/blob/master/images/image025.png?raw=true)  
 
 * 查看GitHub上的远程仓库，会发现nuaa-teaching2018下多了一个hello.cpp。   
-![check push]()
-注意到第一行的信息，图中红框。first commit 是提交时的备注信息，前面是2.1节中添加的本地用户名。
+
+![check push](https://github.com/sinkinben/nuaa-teaching2018/blob/master/images/image029.png?raw=true)  
+
+注意到第一行的信息。first commit 是提交时的备注信息，前面是2.1节中添加的本地用户名。
 
 
 * 在CVM中输入git log，同样可查看你的提交记录。  
-![git log]()  
+![git log](https://github.com/sinkinben/nuaa-teaching2018/blob/master/images/image033.png?raw=true)  
 
 * 到这里，基本学会了**备份操作**了- -。
 
