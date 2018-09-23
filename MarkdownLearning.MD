@@ -40,3 +40,17 @@ Sometimes it is useful to ave different levels of heading to structure your docu
 Use the '>' character.
 > All men are created equal.
 > -Thomas Jefferson
+
+# **INSERT CODE**
+* Sample 1
+#include<stdio.h>
+int main()
+{
+	int a=1,b=2;
+	a=a^b;
+	b=a^b;
+	a=a^b;
+	printf("%d %d\n",a,b);
+}
+* Sample 2
+* Sample 3
