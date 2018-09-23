@@ -1,9 +1,9 @@
-**TEXT OF MARKDOWN**<br>
+# **TEXT OF MARKDOWN**<br>
 It is very easy to make some words **bold** and other words *italic* with markdown. You can even link to [**Google**](www.google.com).
 <br>
 <br>
 
-**LISTS OF MARKDOWN**<br>
+# **LISTS OF MARKDOWN**<br>
 Sample 1 : Numbered Lists<br>
 1. ONE<br>
 2. TWO<br>
@@ -23,8 +23,20 @@ Sample 3 : Dashes Lists<br>
   - 2.2
 <br>
 
-**IMAGES OF MARKDOWN**<br>
+# **IMAGES OF MARKDOWN**<br>
 Insert a image here:<br>
 ![La La Land](https://github.com/sinkinben/nuaa-teaching2018/blob/master/images/psb.jpg?raw=true)
 <br>
 
+# About Heading 
+Sometimes it is useful to ave different levels of heading to structure your documents. Start lines with a '#' to create headings. Mutiple '##' in a row denote smaller heading sizes.
+## Second Level heading
+### Third Level heading
+#### Fourth Level heading
+##### Fifth Level heading
+###### Sixth Level heading
+
+# About quote
+Use the '>' character.
+> All men are created equal.
+> -Thomas Jefferson
