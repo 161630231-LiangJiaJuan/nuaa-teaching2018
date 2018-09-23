@@ -84,14 +84,12 @@ __This will also be bold__
 
 _You **can** combine them_
 
-```
-`  
-Here are the effects.  
-*This text will be italic*  
-_This will also be italic_  
+``` 
+> Here are the effects.  
+> *This text will be italic*  
+> _This will also be italic_  
 
-**This text will be bold**  
-__This will also be bold__  
+> **This text will be bold**  
+> __This will also be bold__  
 
-_You **can** combine them_  
-`  
+> _You **can** combine them_  
