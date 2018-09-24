@@ -1,5 +1,5 @@
 # 软件测试实验报告  
-### 一、云服务器的注册与安装
+## 一、云服务器的注册与安装
 * 首先，进入[腾讯云官网](https://cloud.tencent.com/)，注册登录。登陆后，会有各种套餐推送，选最便宜的。具体操作并不复杂，不展开说明。如果在注册CVM(Cloud Virtual Machine)遇到任何问题，请参考[腾讯云CVM入门](https://cloud.tencent.com/product/cvm/getting-started)。
 
 * 完成配置后，查看网页右上角的消息中心，会收到一封邮件里面是云服务器的相关信息。  
@@ -12,7 +12,7 @@
 
 * 如果遇到任何问题，请查询[腾讯云CVM入门](https://cloud.tencent.com/product/cvm/getting-started)。
 
-### 二、Git工具的配置与简单操作  
+## 二、Git工具的配置与简单操作  
 本节的内容是安装git工具，并结合GitHub学习一些基本的git操作命令。在开始之前，我们默认阅读本文档的读者了解基本的Linux命令。本文当中，安装的Linux版本是GNU/Linux 4.4.0-92-generic i686。**根据Linux版本的不同，输入的命令可能有所不同。 遇到命令失效时，[点击这里](https://www.baidu.com)。**
 
 [What is Git?](https://www.baidu.com)  
@@ -125,5 +125,6 @@ git add .
 ![git log](https://github.com/sinkinben/nuaa-teaching2018/blob/master/images/image033.png?raw=true)  
 
 * 到这里，基本学会了**备份操作**了- -。
+
 
 
