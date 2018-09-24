@@ -9,6 +9,6 @@ For Software Testing Lab homework
 # 老师请阅读这里
 * 作者：NUAA-161630230-冼健邦
 * 本次实验完成云服务器的配置和git的基本操作  
-* 实验报告和实验介绍：可以参考压缩包中`实验报告markdown-PDF预览`   
+* 实验报告和实验介绍：可以参考压缩包中`LabReport-pdf预览`   
 * 实验的GitHub仓库的地址：https://github.com/sinkinben/nuaa-teaching2018   
-* 实验报告用markdown完成，仅支持在线预览，离线阅读参考压缩包中`实验报告markdown-PDF预览`    
+* 实验报告用markdown完成，仅支持在线预览，离线阅读参考压缩包中`LabReport-pdf预览`    
