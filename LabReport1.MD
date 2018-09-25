@@ -171,7 +171,7 @@ sudo ./xxxx.run
 如下图，点击`耗时`标签，可查看之前添加的耗时。   
 ![time](https://github.com/sinkinben/nuaa-teaching2018/blob/master/images/3.png?raw=true)     
 
-* **甘特图  **   
+* **甘特图**   
 `甘特图`显示问题的起止日期以及版本的截至日期。      
 ![甘特图](https://github.com/sinkinben/nuaa-teaching2018/blob/master/images/4.png?raw=true)  
 
