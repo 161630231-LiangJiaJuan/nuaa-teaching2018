@@ -11,4 +11,5 @@ For Software Testing Lab homework
 * 本次实验完成云服务器的配置，git的基本操作以及Redmine的配置   
 * 实验报告和实验介绍：可以参考压缩包中`LabReport-pdf预览`   
 * 实验的GitHub仓库的地址：https://github.com/sinkinben/nuaa-teaching2018   
+* Redmine访问主页：http://120.78.188.73  账号`nuaa`密码`teaching2018`
 * 实验报告用markdown完成，仅支持在线预览，离线阅读参考压缩包中`LabReport-pdf预览`    
