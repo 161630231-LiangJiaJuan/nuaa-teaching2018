@@ -12,8 +12,8 @@
 
 * 如果遇到任何问题，请查询[腾讯云CVM入门](https://cloud.tencent.com/product/cvm/getting-started)。
 
-## 二、Git工具的配置与简单操作  
-本节的内容是安装git工具，并结合GitHub学习一些基本的git操作命令。在开始之前，我们默认阅读本文档的读者了解基本的Linux命令。本文当中，安装的Linux版本是GNU/Linux 4.4.0-92-generic i686。**根据Linux版本的不同，输入的命令可能有所不同。 遇到命令失效时，[点击这里](https://www.baidu.com)。**
+## 二、Git工具使用  
+本节的内容是安装git工具，并结合GitHub学习一些基本的git操作命令。在开始之前，我们默认阅读本文档的读者了解基本的Linux命令。本文当中，安装的Linux版本是GNU/Linux 4.4.0-92-generic i686。**根据Linux版本的不同，输入的命令可能有所不同。**
 
 [What is Git?](https://www.baidu.com)  
 [What is GitHub?](https://www.baidu.com)  
@@ -125,6 +125,76 @@ git add .
 ![git log](https://github.com/sinkinben/nuaa-teaching2018/blob/master/images/image033.png?raw=true)  
 
 * 到这里，基本学会了**备份操作**了- -。
+
+## 三、Redmine的配置和使用
+本节的内容是在云服务器上配置Redmine。  
+
+### 3.1 Redmine的安装
+* 安装Redmine  
+先从[Bitnami](https://bitnami.com/)下载Redmine的安装包。  
+
+* 把Redmine安装包通过sftp上传到云服务器。  
+* 通过一下命令初始化安装包，目的是给redmine.run赋予执行安装的权限。执行完之后文件名会`变绿`。然后执行第二条命令启动安装包。
+```
+chmod +x xxxx.run
+sudo ./xxxx.run
+```
+
+* 按照指引即可完成安装。最后通过浏览器访问redmine项目。url地址是`'https://服务器公网IP:80'`。  
+可能存在80端口被占/关闭的情况（身边有同学遇到，但是我并没有）。
+
+
+### 3.2 Redmine的使用介绍
+访问[我的Redmine主页](http://120.78.188.73/redmine/)， 点击右上角登录，账号密码在安装过程中已有提示进行设置。    
+根据老师要求：   
+账号为：`unaa`     
+密码为：`teaching2018`     
+随意新建了一个`nuaa-teaching`的项目。     
+登录后界面如下：     
+![redmine logic in](https://github.com/sinkinben/nuaa-teaching2018/blob/master/images/redmine%20logic%20in.png?raw=true)      
+
+
+* **活动**   
+`活动`标签按照时间顺序展示所有人员对项目的操作。
+![acivity](https://github.com/sinkinben/nuaa-teaching2018/blob/master/images/1.png?raw=true)  
+
+
+* **添加问题追踪**   
+如下图。作用是添加项目问题，其中问题可以是：功能模块设计/开发/BUG，并指派负责的人员。     
+![add bug](https://github.com/sinkinben/nuaa-teaching2018/blob/master/images/5.png?raw=true)    
+   
+点击进入问题的详细页面，可追踪该问题，并添加项目组成员的工时。    
+![detail bug](https://github.com/sinkinben/nuaa-teaching2018/blob/master/images/6.png?raw=true)  
+
+
+* **查看各项耗时**   
+如下图，点击`耗时`标签，可查看之前添加的耗时。   
+![time](https://github.com/sinkinben/nuaa-teaching2018/blob/master/images/3.png?raw=true)     
+
+* **甘特图  **   
+`甘特图`显示问题的起止日期以及版本的截至日期。      
+![甘特图](https://github.com/sinkinben/nuaa-teaching2018/blob/master/images/4.png?raw=true)  
+
+
+* **日历**  
+`日历`可显示项目从创建到当前这一时间跨度的所有活动。  
+
+* **文档**   
+`文档`区域用于展示项目组各个工作人员在开发/测试过程中所保留的说明文档。     
+
+* **配置**   
+`配置`标签是对Redmine的页面进行布局，可以选择/删除你需要/不需要的功能标签。     
+
+* **工作台**  
+`工作台`在页面的左上角，可以查看**指派给自己的所有工作**。   
+![工作台](https://github.com/sinkinben/nuaa-teaching2018/blob/master/images/2.png?raw=true)   
+
+
+
+
+    
+
+
 
 
 
